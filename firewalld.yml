@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: production
 
   tasks:
           - name: Adding firewall Services
