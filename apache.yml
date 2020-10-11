@@ -1,0 +1,10 @@
+---
+
+- hosts: test
+
+  tasks:
+          - name: Installing Apache application
+            yum: name=httpd state=present
+
+          - name: Starting Apache Services
+            service: name=httpd state=started
